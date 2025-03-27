@@ -15,6 +15,8 @@ A Python package is included to help with training. To install it, run:
 ```sh
 pip install .
 ```
+If you encounter any issues with Torch, ensure you install the correct version based on your accelerator (GPU, CPU, TPU, or MPS).
+
 ## Training
 
 Before training, you need a configuration file with the training settings. A sample file is provided in `config.yml`:
