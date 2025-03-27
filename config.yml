@@ -1,0 +1,17 @@
+
+name: basic_rl_doom
+seed: 2025
+enviroment_file:  simpler_basic.cfg
+frame_repeat: 12
+batch_size: 512
+discount_factor: 0.99
+lr: 0.00025
+init_epsilon: 1.
+epsilon_decay: 0.9996
+min_epsilon: 0.1
+image_resolution: [84, 84]
+n_channels: 2
+log_every_k_epochs: 1
+steps_per_epoch: 512
+num_epochs: 100
+capacity: 50000
