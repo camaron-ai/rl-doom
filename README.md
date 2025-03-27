@@ -8,6 +8,11 @@ The first agent will be tested in a basic environment to evaluate the effectiven
 - Dueling DQN.
 - Prioritized Experience Replay.
 
+
+<p align="center">
+  <img src="assets/demo.gif" alt="Centered GIF"/>
+</p>
+
 ## Setup
 
 A Python package is included to help with training. To install it, run:
